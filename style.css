@@ -1,3 +1,28 @@
 *{
-    padding: ;
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+canvas {
+    /*position: fixed;*/
+    /*top: 151px;*/
+    /*left: 412px;*/
+    /*border: 1px solid #000000;
+    */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: aquamarine 1px solid;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+table{
+    position: fixed;
+    top: 351px;
+    left: 462px;
+}
+#player{
+    display: none;
 }
